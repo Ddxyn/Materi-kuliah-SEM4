@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama"
+            />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Masukkan Password"
+            />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Masukkan Email"
+            />
+        </div>
+        <div>
+            <label for="alamat">Alamat</label>
+            <textarea type="alamat" name="alamat" id="alamat" cols="30" rows="10"></textarea>
+        </div>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <div>
+                <label for="jeniskel">Jenis Kelamin</label>
+                <select name="jeniskel" id="jeniskel">
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="permpuan">Perempuan</option>
+                </select>
+            </div>
+            <div>
+                <label for="umur">UMUR</label>
+                <input type="number" name="umur" id="umur"/>
+            </div>
+            <div>
+                <label for="membership">Membership</label>
+                <input type="radio" name="membership" id="membership" value="simple"
+                />
+                simple
+                <input type="radio" name="membership" id="membership" value="VIP"/>
+                VIP
+            </div>
+        </fieldset>
+        <div>
+            <label for="hobi">Hobi</label>
+            <input type="checkbox" name="hobi" id="hobi" value="berenang"/>
+            Berenang
+            <input type="checkbox" name="hobi" id="hobi" value="nonton korea"/>
+            Nonton Drama Korea
+         </div>
+         <input type="submit" value="kirim"/>
+    </form>
+</body>
+</html>
